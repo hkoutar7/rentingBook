@@ -1,0 +1,90 @@
+/* Start Author Index Page  */
+
+#authorPageIndex {
+}
+#authorPageIndex {
+}
+
+#authorPageIndex div > div > article {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 8px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+}
+
+#authorPageIndex div > div > article > div:nth-of-type(2) {
+    padding: 4px 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    height: 100%;
+    gap: 5px;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+}
+#authorPageIndex div > div > article > div:nth-of-type(2)>div:first-of-type {
+min-width: 197px;
+}
+
+
+
+#authorPageIndex div > div > article > div:nth-of-type(2) >div:first-of-type h4 {
+    font-size: 15px;
+    text-transform: none;
+    word-spacing: 3px;
+    margin-bottom: 3px;
+}
+
+#authorPageIndex div > div > article > div:nth-of-type(2) >div:first-of-type p {
+    margin: 0;
+    font-size: 10px;
+    color: #424242;
+}
+
+#authorPageIndex div > div > article > div:nth-of-type(2) >div >div:not(div:first-of-type) {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#authorPageIndex div > div > article > div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(2) span {
+    background: #9E9E9E;
+    border-radius: 25px;
+    padding: 2px 3px;
+    min-width: 49px;
+    text-align: center;
+    color: #FFF;
+    text-transform: lowercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 9px;
+}
+
+#authorPageIndex div > div > article > div:nth-of-type(2)>div:nth-of-type(2)>div:first-of-type span {
+  font-size: 10px;
+    border: 1px solid #4CAF50;
+    border-radius: 21px;
+    color: #4caf50;
+    min-width: 58px;
+    text-align: center;
+    padding: 1px 6px;
+    cursor: pointer;
+}
+
+#authorPageIndex div > div > article > div:nth-of-type(2)>div:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    gap: 5px;
+}
+
+
+/* End Author Index Page  */

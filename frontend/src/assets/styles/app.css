@@ -1,0 +1,18 @@
+/* Start Section  */
+.home {
+    position: absolute;
+    top: 0;
+    top: 0;
+    left: 250px;
+    min-height: 100vh;
+    width: calc(100% - 250px);
+    background-color: var(--body-color);
+    transition: var(--tran-05);
+}
+
+.sidebar.close ~ .home {
+    left: 78px;
+    width: calc(100% - 78px);
+}
+
+/* End Section  */

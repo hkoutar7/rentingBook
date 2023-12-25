@@ -1,0 +1,16 @@
+/* Start BreadCrumb  */
+
+#breadCrumb li a {
+    text-decoration: none;
+}
+#breadCrumb li a:not(li:last-of-type a) {
+    color: #616161;
+    font-size: 14px;
+}
+#breadCrumb li:last-of-type {
+    font-size: 14px;
+    color: #695cfe;
+    font-weight: 500;
+}
+
+/* End BreadCrumb  */
