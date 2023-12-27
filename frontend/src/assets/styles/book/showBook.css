@@ -1,0 +1,74 @@
+/* Start Show Book  */
+
+/* ShowBook.css */
+#bookPageShow .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#bookPageShow .card-header {
+    color: black;
+}
+#bookPageShow .card-header span:first-of-type {
+}
+#bookPageShow .card-header span:last-of-type {
+    color: #695cfe;
+}
+
+#bookPageShow .card-subtitle {
+    color: #6c757d;
+}
+
+#bookPageShow .card-body {
+    padding: 20px;
+}
+
+#bookPageShow .list-group-item {
+    border: none;
+}
+
+#bookPageShow div.holder {
+    padding: 20px 0px;
+}
+
+#bookPageShow div.holder > div:first-of-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header {
+    background-color: white;
+}
+
+#bookPageShow .card-des,
+#bookPageShow .card-genre {
+    margin: -2px 0 0;
+}
+
+#bookPageShow .card-des span:first-of-type,
+#bookPageShow .card-genre span:first-of-type {
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+#bookPageShow .card-des span:last-of-type {
+    font-size: 11px;
+    color: #424242;
+}
+
+#bookPageShow .card-genre {
+    margin-top: 15px;
+}
+#bookPageShow .card-genre span:last-of-type {
+    padding: 1px 9px;
+    background-color: #695cfe;
+    color: #fff;
+    border-radius: 34px;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+/* End Show Book  */

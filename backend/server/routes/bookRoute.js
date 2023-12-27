@@ -14,7 +14,7 @@ router.get("/" , async(req, res) => {
     try {
         let books = await Book.find()
                 .sort({ title : 1,author : 1})
-                .select("-__v -createdAt -updatedAt");
+                .select("-__v -createdAt -updatedAt")
         res.status(200).json({
             data : books,
             message: "The books'be been fetched successfully from the DB.",

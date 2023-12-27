@@ -1,0 +1,44 @@
+/* createBook.css */
+
+#bookPageCreate .create-book-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#bookPageCreate label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#bookPageCreate input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#bookPageCreate button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+#bookPageCreate button:hover {
+    background-color: #0056b3;
+}
+
+#bookPageCreate button:disabled {
+    background-color: #ccc; /* Change the background color for disabled state */
+    cursor: not-allowed; /* Change the cursor for disabled state */
+    opacity: 0.7; /* Reduce opacity for a visual cue */
+}

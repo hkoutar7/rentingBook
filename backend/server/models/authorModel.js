@@ -28,6 +28,11 @@ const authorSchema = mongoose.Schema({
         maxlength: 50,
         default: "Unknown",
     },
+    gender : {
+        type : String,
+        enum: ["male", "female"],
+        default: "male",
+    },
     occupation: {
         type: String,
         required: true,

@@ -48,3 +48,28 @@ a {
   font-family: 'Poppins', sans-serif;
 }
 /* End Global Rules */
+/* Start Reusible Components  */
+.title {
+    margin-bottom: 15px;
+}
+
+.title h4 {
+    font-size: 15px;
+    margin: 0;
+}
+.title h4 span {
+    color: #695cfe;
+}
+
+.title p {
+    margin: 0;
+    font-size: 11px;
+    transform: translateY(-4px);
+    color: #424242;
+}
+
+/* End Reusible Components  */
+
+.modal-backdrop {
+    --bs-backdrop-bg: #0000001c !important;
+}

@@ -1,8 +1,6 @@
 /* Start Author Index Page  */
-
-#authorPageIndex {
-}
-#authorPageIndex {
+#authorPageIndex{
+    padding: 0px 20px;
 }
 
 #authorPageIndex div > div > article {
@@ -15,17 +13,19 @@
     justify-content: flex-start;
     align-items: flex-start;
     height: 100%;
+    position: relative;
 }
 
 #authorPageIndex div > div > article > div:nth-of-type(2) {
-    padding: 4px 10px;
+   padding: 4px 10px;
     display: flex;
-    align-items: flex-start;
     flex-direction: row;
     height: 100%;
     gap: 5px;
     width: -webkit-fill-available;
     justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 #authorPageIndex div > div > article > div:nth-of-type(2)>div:first-of-type {
 min-width: 197px;
@@ -85,6 +85,62 @@ min-width: 197px;
     align-items: center;
     gap: 5px;
 }
+#authorPageIndex div > div > article div.operations{
+    position: absolute;
+    right: 8px;
+    bottom: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
 
+#authorPageIndex div > div > article > div:nth-of-type(2)>div:nth-of-type(2)>div:first-of-type{
+    transform: translateY(-3px)
+}
 
+#authorPageIndex div > div > article div.operations>div{
+    display: flex;
+    width: 15px;
+    height: 15px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+#authorPageIndex div > div > article div.operations>div:hover{
+    transform: scale(1.1);
+}
+
+#authorPageIndex div > div > article div.operations>div svg{
+    font-size: 12px;
+    color: #473cce;
+}
 /* End Author Index Page  */
+/* Start Author Index Page : Add Author  */
+
+#authorPageIndex .authorAdd{
+    position: absolute;
+    display: inline-block;
+    bottom: 10px;
+    right: 10px;
+    background-color: #695cfe;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(82 88 93 / 51%) 0px 8px 12px 2px;
+    cursor: pointer;
+}
+
+#authorPageIndex .authorAdd svg{
+    font-size: 22px;
+    color: #FFF;
+}
+
+
+
+/* End Author Index Page : Add Author  */

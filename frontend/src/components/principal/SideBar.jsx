@@ -26,7 +26,7 @@ function SideBar() {
                     </span>
 
                     <div className="text logo-text">
-                        <span className="name">Ensakh Library</span>
+                        <span className="name">Rofof Library</span>
                         <span className="profession">
                             Commetee Al Masjid Library
                         </span>
@@ -82,12 +82,12 @@ function SideBar() {
                                 </span>
                             </NavLink>
                         </li>
-                        <li className="nav-link">
+                        {/* <li className="nav-link">
                             <NavLink to="/settings">
                                 <IoIosSettings />
                                 <span className="text nav-text">Settings</span>
                             </NavLink>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
 

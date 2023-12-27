@@ -1,20 +1,125 @@
 /* Start Index Book Page  */
 
+#bookPageIndex {
+    padding: 0px 20px;
+}
+#bookPageIndex .bookHolder {
+    position: relative;
+}
 
+#bookPageIndex .book-container > div > div:nth-of-type(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.book-container {
+    background: #fff;
+    padding: 9px 14px;
+    border-radius: 8px;
+    height: 212px;
+}
 
+#bookPageIndex .book-title {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: -3px;
+}
 
+#bookPageIndex .book-summ {
+    margin: 0;
+    font-size: 11px;
+    font-weight: 500;
+}
 
+#bookPageIndex .book-author {
+    color: #666;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
 
+#bookPageIndex .book-description {
+    color: #555;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
 
+#bookPageIndex .book-genre {
+    font-size: 13px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#bookPageIndex .book-genre span {
+    padding: 1px 9px;
+    background-color: #695cfe;
+    color: #fff;
+    border-radius: 34px;
+    font-size: 11px;
+    font-weight: 400;
+}
 
+#bookPageIndex .book-publ {
+    color: #000;
+    font-size: 10px;
+    margin-top: -9px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+#bookPageIndex .book-publ span {
+    color: #888;
+    font-size: 10px;
+    font-weight: 400;
+    margin-left: 6px;
+}
 
+#bookPageIndex .book-info {
+    color: #888;
+    font-size: 11px;
+}
 
+#bookPageIndex div.addBook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 14px 0 19px;
+}
+#bookPageIndex div.addBook button {
+    font-size: 13px;
+    padding: 3px 7px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-weight: bold;
+    background-color: #695cfe;
+    color: #fff;
+}
+#bookPageIndex div.operations > div {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
 
+#bookPageIndex div.operations > div:hover {
+    transform: scale(1.1);
+}
 
+#bookPageIndex div.operations > div svg {
+    font-size: 12px;
+    color: #473cce;
+}
 
-
-
-
-
+#bookPageIndex div.operations {
+    position: absolute;
+    bottom: 9px;
+    right: 9px;
+    display: flex;
+    gap: 9px;
+    justify-content: flex-end;
+}
 /* End Index Book Page  */
